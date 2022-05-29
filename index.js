@@ -3,7 +3,7 @@
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
 const firstUser = {};
 
-firstUser.nama = "Monica";
+firstUser.name = "Monica";
 firstUser.gender = "Female";
 firstUser.age = "17";
 firstUser.email = "monica@dingdong.com";
@@ -62,7 +62,7 @@ firstUser.favoriteRestaurant = favoriteRestaurantFirst;
 
 const secondUser = {};
 
-secondUser.nama = "Wendy";
+secondUser.name = "Wendy";
 secondUser.gender = "Male";
 secondUser.age = "23";
 secondUser.email = "wendy@dingdong.com";
@@ -124,18 +124,20 @@ favoriteRestaurantSecond.add("Eggy");
 
 secondUser.favoriteRestaurant = favoriteRestaurantSecond;
 
-// TODO: Masukkan hasil akhir dari kedua user di sini
-const users = [];
-users.push(firstUser, secondUser);
+console.log(secondUser);
 
-// ! JANGAN MODIFIKASI LINE DI BAWAH
-function main() {
-    console.log(users.length || users.size);
-    console.log(users);
-}
+// // TODO: Masukkan hasil akhir dari kedua user di sini
+// const users = [];
+// users.push(firstUser, secondUser);
 
-main();
+// // ! JANGAN MODIFIKASI LINE DI BAWAH
+// function main() {
+//     console.log(users.length || users.size);
+//     console.log(users);
+// }
 
-module.exports = {
-    users
-};
+// main();
+
+// module.exports = {
+//     users
+// };
