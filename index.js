@@ -124,20 +124,20 @@ favoriteRestaurantSecond.add("Eggy");
 
 secondUser.favoriteRestaurant = favoriteRestaurantSecond;
 
-console.log(secondUser);
+// console.log(secondUser);
 
-// // TODO: Masukkan hasil akhir dari kedua user di sini
-// const users = [];
-// users.push(firstUser, secondUser);
+// TODO: Masukkan hasil akhir dari kedua user di sini
+const users = [];
+users.push(firstUser, secondUser);
 
-// // ! JANGAN MODIFIKASI LINE DI BAWAH
-// function main() {
-//     console.log(users.length || users.size);
-//     console.log(users);
-// }
+// ! JANGAN MODIFIKASI LINE DI BAWAH
+function main() {
+    console.log(users.length || users.size);
+    console.log(users);
+}
 
-// main();
+main();
 
-// module.exports = {
-//     users
-// };
+module.exports = {
+    users
+};
